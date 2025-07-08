@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action Frontend View</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="./FrontEndView/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar px-3 border-bottom" style="height: 60px;">
+            <img src="./FrontEndView/images/pic3.jpg" class="rounded-circle me-2" alt="Profile">
+            <h2>Parro$harps</h2>
+            <div class="ms-auto d-flex align-items-center">
+                <i class="bi bi-bell fs-5 me-3"></i>
+                <img src="./FrontEndView/images/pic4.jpg" class="rounded-circle" width="40" height="40" alt="Profile">
+            </div>
+        </nav>
+    </header>
+
+    <!-- Container for all layout rows -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Sidebar Icons -->
+            <div class="col-auto d-flex flex-column align-items-center sidebar">
+                <a href="#" class="mb-4 text-secondary"><i class="bi bi-house fs-5"></i></a>
+                <a href="#" class="mb-4 text-secondary"><i class="bi bi-chat-left-text fs-5"></i></a>
+                <a href="#" class="mb-4 text-secondary"><i class="bi bi-star fs-5"></i></a>
+                <a href="#" class="mb-4 text-secondary"><i class="bi bi-gear fs-5"></i></a>
+            </div>
+
+            <!-- Sidebar with Filter and Review List -->
+            <div class="col-12" style="padding-left: 65px;">
+                <div class="row main-review-block">
+                    <div class="col-sm-5 col-md-4 col-lg-4 review-block">
+                        <div class="d-flex justify-content-between align-items-center my-3">
+                            <h6 class="fw-bold">Google</h6>
+                            <i class="bi bi-three-dots"></i>
+                        </div>
+
+                        <input type="text" class="form-control mb-3" placeholder="Search">
+
+                        <div class="btn-group mb-3">
+                            <button onclick="ShowAll()" class="btn btn-sm btn-outline-primary btn-filter"
+                                data-filter="all">All (20)</button>
+                            <button onclick="Unread()" class="btn btn-sm btn-outline-secondary btn-filter"
+                                data-filter="unread">Unread</button>
+                            <button onclick="UnReplied()" class="btn btn-sm btn-outline-secondary btn-filter"
+                                data-filter="read">Un-replied</button>
+                        </div>
+
+                        <!-- Review List -->
+                        <div class="review-list overflow-auto" style="max-height: 70vh; scrollbar-width: none;"></div>
+                    </div>
+
+                    <!-- Review Panel -->
+                    <div id="review-panel" class="col-sm-7 col-md-8 col-lg-8 review-panel"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./FrontEndView/script.js"></script>
+</body>
+
+
+</html>
