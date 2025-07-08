@@ -286,7 +286,7 @@ function renderPanel(index) {
 
     <hr style="margin: 1px 0px;">
 
-    <div class="mb-4">
+    <div class="mb-4 mt-2">
       <div class="d-flex align-items-center mb-2">
         <img src="./images/pic2.jpg" class="rounded-circle me-2" width="40" height="40">
         <div>
