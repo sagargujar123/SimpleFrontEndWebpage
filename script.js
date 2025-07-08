@@ -28,7 +28,7 @@ function UnReplied() {
 const reviews = [
     {
         name: "Marvin McKinney",
-        image: "images/pic1.jpg",
+        image: "./images/pic1.jpg",
         stars: 3,
         time: "3:20 PM",
         comment: "The team is talented, and their product was good, but communication could be better. I had to follow up multiple times to get updates. If they improve responsiveness, they'd be perfect.",
@@ -36,16 +36,16 @@ const reviews = [
         status: "unread",
         reply: "Really appreciate you taking the time to share this. I’m so glad to hear you liked the product and our team’s work — that truly means a lot. At the same time, I’m genuinely sorry you had to follow up more than once to get updates. That’s on us, and we’re working on being more proactive with communication. Thanks again for the thoughtful feedback — it helps us get better, and we hope to make your next experience a smoother one.",
         images: [
-            "images/pic1.jpg",
-            "images/pic2.jpg",
-            "images/pic3.jpg",
-            "images/pic4.jpg"
+            "./images/pic1.jpg",
+            "./images/pic2.jpg",
+            "./images/pic3.jpg",
+            "./images/pic4.jpg"
         ]
 
     },
     {
         name: "Alice Johnson",
-        image: "images/pic2.jpg",
+        image: "./images/pic2.jpg",
         stars: 4.5,
         time: "11:45 AM",
         comment: "Quick support and consistent communication. Great job!",
@@ -53,16 +53,16 @@ const reviews = [
         status: "read",
         reply: "Thank you for the feedback...",
         images: [
-            "images/pic1.jpg",
-            "images/pic2.jpg",
-            "images/pic3.jpg",
-            "images/pic4.jpg"
+            "./images/pic1.jpg",
+            "./images/pic2.jpg",
+            "./images/pic3.jpg",
+            "./images/pic4.jpg"
         ]
 
     },
     {
         name: "David Anderson",
-        image: "images/pic3.jpg",
+        image: "./images/pic3.jpg",
         stars: 2,
         time: "Yesterday",
         comment: "They need improvement in response time and support...",
@@ -70,16 +70,16 @@ const reviews = [
         status: "read",
         reply: "Thank you for the feedback...",
         images: [
-            "images/pic1.jpg",
-            "images/pic2.jpg",
-            "images/pic3.jpg",
-            "images/pic4.jpg"
+            "./images/pic1.jpg",
+            "./images/pic2.jpg",
+            "./images/pic3.jpg",
+            "./images/pic4.jpg"
         ]
 
     },
     {
         name: "Linda Martinez",
-        image: "images/pic4.jpg",
+        image: "./images/pic4.jpg",
         stars: 3,
         time: "3:20 PM",
         comment: "The team is talented, and their product was good...",
@@ -87,16 +87,16 @@ const reviews = [
         status: "unread",
         reply: "Thank you for the feedback...",
         images: [
-            "images/pic1.jpg",
-            "images/pic2.jpg",
-            "images/pic3.jpg",
-            "images/pic4.jpg"
+            "./images/pic1.jpg",
+            "./images/pic2.jpg",
+            "./images/pic3.jpg",
+            "./images/pic4.jpg"
         ]
 
     },
     {
         name: "James Lee",
-        image: "images/pic1.jpg",
+        image: "./images/pic1.jpg",
         stars: 3,
         time: "3:20 PM",
         comment: "The team is talented, and their product was good...",
@@ -104,16 +104,16 @@ const reviews = [
         status: "read",
         reply: "Thank you for the feedback...",
         images: [
-            "images/pic1.jpg",
-            "images/pic2.jpg",
-            "images/pic3.jpg",
-            "images/pic4.jpg"
+            "./images/pic1.jpg",
+            "./images/pic2.jpg",
+            "./images/pic3.jpg",
+            "./images/pic4.jpg"
         ]
 
     },
     {
         name: "Sophia Roberts",
-        image: "images/pic3.jpg",
+        image: "./images/pic3.jpg",
         stars: 5,
         time: "9:10 AM",
         comment: "Absolutely wonderful experience! Highly recommended.",
@@ -121,15 +121,15 @@ const reviews = [
         status: "read",
         reply: "Thank you for your kind words! We’re glad you had a great experience.",
         images: [
-            "images/pic1.jpg",
-            "images/pic2.jpg",
-            "images/pic3.jpg",
-            "images/pic4.jpg"
+            "./images/pic1.jpg",
+            "./images/pic2.jpg",
+            "./images/pic3.jpg",
+            "./images/pic4.jpg"
         ]
     },
     {
         name: "Liam Turner",
-        image: "images/pic4.jpg",
+        image: "./images/pic4.jpg",
         stars: 2.5,
         time: "Yesterday",
         comment: "Service was slow and the response time could be improved.",
@@ -137,15 +137,15 @@ const reviews = [
         status: "unread",
         reply: "We appreciate your feedback and will work on improving our service.",
         images: [
-            "images/pic1.jpg",
-            "images/pic2.jpg",
-            "images/pic3.jpg",
-            "images/pic4.jpg"
+            "./images/pic1.jpg",
+            "./images/pic2.jpg",
+            "./images/pic3.jpg",
+            "./images/pic4.jpg"
         ]
     },
     {
         name: "Emily Nguyen",
-        image: "images/pic1.jpg",
+        image: "./images/pic1.jpg",
         stars: 3.5,
         time: "Monday",
         comment: "The interface was user-friendly but had occasional glitches.",
@@ -153,15 +153,15 @@ const reviews = [
         status: "read",
         reply: "Thanks for the feedback! We are already working on bug fixes.",
         images: [
-            "images/pic1.jpg",
-            "images/pic2.jpg",
-            "images/pic3.jpg",
-            "images/pic4.jpg"
+            "./images/pic1.jpg",
+            "./images/pic2.jpg",
+            "./images/pic3.jpg",
+            "./images/pic4.jpg"
         ]
     },
     {
         name: "Noah Bennett",
-        image: "images/pic2.jpg",
+        image: "./images/pic2.jpg",
         stars: 1,
         time: "Last Week",
         comment: "Very disappointed with the product. It didn’t meet expectations.",
@@ -169,15 +169,15 @@ const reviews = [
         status: "unread",
         reply: "We’re really sorry to hear this. Please reach out so we can make it right.",
         images: [
-            "images/pic1.jpg",
-            "images/pic2.jpg",
-            "images/pic3.jpg",
-            "images/pic4.jpg"
+            "./images/pic1.jpg",
+            "./images/pic2.jpg",
+            "./images/pic3.jpg",
+            "./images/pic4.jpg"
         ]
     },
     {
         name: "Grace Foster",
-        image: "images/pic3.jpg",
+        image: "./images/pic3.jpg",
         stars: 4,
         time: "2 Days Ago",
         comment: "Good value for the price. Would recommend to others.",
@@ -185,10 +185,10 @@ const reviews = [
         status: "read",
         reply: "Thank you so much for recommending us!",
         images: [
-            "images/pic1.jpg",
-            "images/pic2.jpg",
-            "images/pic3.jpg",
-            "images/pic4.jpg"
+            "./images/pic1.jpg",
+            "./images/pic2.jpg",
+            "./images/pic3.jpg",
+            "./images/pic4.jpg"
         ]
     }
 
@@ -288,7 +288,7 @@ function renderPanel(index) {
 
     <div class="mb-4">
       <div class="d-flex align-items-center mb-2">
-        <img src="images/pic2.jpg" class="rounded-circle me-2" width="40" height="40">
+        <img src="./images/pic2.jpg" class="rounded-circle me-2" width="40" height="40">
         <div>
           <strong>You</strong><br>
           <small class="text-muted">Replied by AI on Jun 24, 2025 • ${r.time}</small>
